@@ -1,0 +1,16 @@
+groups:
+  player:
+    default: true
+    prefix: "&8"
+    permissions:
+      - test.test
+  mod:
+    default: true
+    prefix: "&eMOD "
+    permissions:
+      - minecraft.command.ban
+  admin:
+    default: true
+    prefix: "&bADMIN "
+    permissions:
+      - *
